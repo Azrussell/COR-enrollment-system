@@ -1,8 +1,8 @@
- require ('dotenv').config()
-
-  module.exports = {
+require('dotenv').config()
+module.exports = {
   "development": {
-    "username": process.env.DATABASE_USERNAME,
+    "username": "process.env.DATABASE_USERNAME",
+
     "password": null,
     "database": "database_development",
     "host": "127.0.0.1",

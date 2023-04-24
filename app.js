@@ -1,7 +1,3 @@
-const express = require('express')
-const app = express()
-const port = 3000
-
 var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
